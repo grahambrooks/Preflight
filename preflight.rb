@@ -258,7 +258,7 @@ Preflight uses a local '.preflight' file to define its behaviour using a ruby DS
 
 To define a changeset command for Git use the changeset command like this:
 
-changset do
+changeset do
   command 'git diff --name-status'
 end
 
@@ -269,7 +269,7 @@ assessment :RED, 37, 41
 
 See https://en.wikipedia.org/wiki/ANSI_escape_code for details
 
-Rules define a regular expression to match change files. Use :ADDED for new filles :MODIFIED for files that
+Rules define a regular expression to match change files. Use :ADDED for new files :MODIFIED for files that
 have changed and :DELETED for ... yep deleted files.
 
 rule /pom.xml/ do |p|
