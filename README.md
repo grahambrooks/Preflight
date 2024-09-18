@@ -1,4 +1,7 @@
 # Preflight
+
+This project is no longer maintained - Archived
+
 Pre-commit checking tool to help teams coordinate and share expectations
 
 There are various ways developers receive feedback. Reviews, comments on pull requests, build servers.
